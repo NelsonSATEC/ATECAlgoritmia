@@ -8,7 +8,6 @@ public class Ex4 {
 
         Scanner input = new Scanner(System.in);
 
-
         System.out.print("Raio da Circunferência:");
         double raio = input.nextDouble();
 
