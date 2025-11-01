@@ -11,15 +11,16 @@ public class Ex5 {
         double nota1, nota2, nota3, mediaAritmetica, mediaPonderada;
 
         System.out.print("Nota1:");
-        double Nota1 = input.nextDouble();
+        nota1 = input.nextDouble();
 
         System.out.print("Nota2:");
-        double Nota2 = input.nextDouble();
+        nota2 = input.nextDouble();
 
         System.out.print("Nota3:");
-        double Nota3 = input.nextDouble();
+        nota3 = input.nextDouble();
 
         mediaAritmetica = (nota1 + nota2 + nota3) / 3;
+        System.out.println( "A média das notas é:" +mediaAritmetica);
         
 
 
