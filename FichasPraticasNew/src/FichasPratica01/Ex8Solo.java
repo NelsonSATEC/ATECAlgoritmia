@@ -48,9 +48,7 @@ public class Ex8Solo {
         resto2 = resto1 % 60;
         ss = resto2;
 
-        System.out.println("A duração do albúm em horas é:" + hh);
-        System.out.println("A duração do albúm em minutos é:" + mm);
-        System.out.println("A duração do albúm em segundos é:" + ss);
+        System.out.println("A duração do albúm é:" + hh + "h" + mm + "m" + ss + "s");
 
 
     }
