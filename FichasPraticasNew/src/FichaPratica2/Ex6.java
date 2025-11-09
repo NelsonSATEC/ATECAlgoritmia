@@ -2,7 +2,7 @@ package FichaPratica2;
 
 import java.util.Scanner;
 
-public class Ex5 {
+public class Ex6 {
 
     public static void main() {
 
@@ -17,10 +17,10 @@ public class Ex5 {
         valor2 = input.nextInt();
 
         if (valor1 > valor2) {
-            System.out.println(valor2 + " " + valor1);
-        } else {
             System.out.println(valor1 + " " + valor2);
-        }
+        } else {
+            System.out.println(valor2 + " " + valor1);
 
+        }
     }
 }
