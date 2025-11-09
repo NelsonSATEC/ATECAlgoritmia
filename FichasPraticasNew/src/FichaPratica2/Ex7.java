@@ -17,6 +17,7 @@ public class Ex7 {
             System.out.println("O número é par.");
         } else {
             System.out.println("O número é ìmpar");
+
         }
     }
 }
