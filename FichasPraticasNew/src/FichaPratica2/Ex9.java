@@ -30,15 +30,5 @@ public class Ex9 {
                         if (num3 < num1 && num3 < num2);{
                             System.out.println("O menor número é " + num3);
         }
-
-        {
-
-
-
-        }
-
-
-
-
     }
 }
