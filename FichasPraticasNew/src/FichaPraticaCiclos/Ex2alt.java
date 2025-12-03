@@ -1,14 +1,15 @@
-package FichaPratica4;
+package FichaPraticaCiclos;
 
-public class Ex1 {
+public class Ex2alt {
 
     public static void main() {
 
         int num;
 
-        for (num=10; num<=20; num++) {
+        for (num=3; num<=255; num+=3)
             System.out.println(num);
-        }
+
 
     }
+
 }

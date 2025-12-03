@@ -1,4 +1,4 @@
-package FichaPratica4;
+package FichaPraticaCiclos;
 
 public class Ex1 {
 
@@ -6,7 +6,7 @@ public class Ex1 {
 
         int num;
 
-        for (num=10; num<=20; num++) {
+        for (num=1; num<=500; num++) {
             System.out.println(num);
         }
 

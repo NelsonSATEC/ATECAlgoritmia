@@ -2,13 +2,16 @@ package FichaPratica4;
 
 public class Ex2 {
 
-    public static void main(String[] args) {
+    public static void main() {
 
-        int numero, somatorio;
+        int num, somatorio=0;
 
-        for (numero=11; numero<=51; numero=numero+2) {
-            System.out.println(numero);
+        for (num=11; num<=51; num+=2){
+            System.out.println(num);
+            somatorio=somatorio+num;
         }
+
+        System.out.println(somatorio);
 
     }
 
