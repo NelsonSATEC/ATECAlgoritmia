@@ -19,7 +19,7 @@ public class Ex4 {
 
         int menor=vetor[0];
 
-        for(int i=0;i< vetor.length; i++) {
+        for (int i=0;i< vetor.length; i++) {
 
             if (vetor[i] < menor) {
                 menor=vetor[i];
